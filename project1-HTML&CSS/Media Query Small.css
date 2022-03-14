@@ -1,0 +1,111 @@
+@media screen and (max-width: 720px)
+{
+
+    
+    .home{
+        height: 40vh;
+        width: 100%;
+        background-image: url(img/me3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    nav{
+        display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+        padding-top: 15px;
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+    .logo img{
+        width: 20px;
+        max-width:  100%;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        padding: 5px  1px 5px 10px;
+        align-items: center;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 3px 9px;
+        border-radius: 7px;
+    }
+    .content{
+        top: 20%;
+        left:5%;
+    }
+    h1{
+        margin: 10px 0px 10px;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 10px;
+        margin-bottom: 25px;
+        line-height: 1.5em;
+    }
+    h4{
+        letter-spacing: 2px;
+        font-size: 8px;
+    }
+    h5{
+        font-size: 10px;
+    }
+
+
+
+
+
+ .main img{
+    width: 50%;
+    max-width:  100%;
+ }
+ .Experience-text h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.Experience-text h5{
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+.Experience-text p{
+	line-height: 28px;
+	font-size: 11px;
+	margin-bottom: 45px;
+}
+
+
+
+
+
+.title h2{
+	font-size: 40px;
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+}
+.skl p{
+	font-size: 13px;
+}
+.rec p{
+	font-size: 13px;
+}
+
+
+
+
+.projects p{
+	font-size: 13px;
+}
+
+}
+
+
+
+
+}
