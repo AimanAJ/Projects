@@ -8,6 +8,10 @@ html{
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+
+  /* -----------------------home Section start------------------------------ */
+
+
 .home{
 	height: 100vh;
 	width: 100%;
@@ -24,11 +28,12 @@ nav{
 	padding-right: 10%;
 	position: fixed !important;
 	width: 100%;
-	z-index: 1000;
+	z-index: 1;
 	background-color: rgba(68, 67, 67, 0.5);
+
 }
 .logo img{
-max-width: 90px;
+max-width: 75px;
 height: auto;
 }
 
@@ -45,7 +50,7 @@ nav ul li a{
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
-    font-size: 20px;
+    font-size: 40px;
 }
 nav ul li a:hover{
 	color: #f9004d;
@@ -88,9 +93,7 @@ h4{
 	font-size: 20px;
 }
 
-
-
-
+  /* -----------------------Experience Section start------------------------------ */
 
 
 .Experience{
@@ -134,10 +137,7 @@ h4{
 	margin-bottom: 45px;
 }
 
-
-
-
-
+  /* -----------------------Skills Section start------------------------------ */
 
 .Skills {
 	width: 100%;
@@ -145,9 +145,7 @@ h4{
 	background-color: #000000;
 }
 
-
-
-
+  /* -----------------------qualification Section start------------------------------ */
 
 
 .qualification {
@@ -191,10 +189,10 @@ button:hover{
 }
 .card{
 	height: 365px;
-	width: 400px;
+	width: 350px;
 	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
+	background: #464646;
+	border-radius:35px;
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
@@ -256,6 +254,7 @@ h5{
 }
 
 
+  /* -----------------------footer Section start------------------------------ */
 
 
 footer{
