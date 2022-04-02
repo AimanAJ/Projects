@@ -5,11 +5,12 @@
 }
 body{
     font-family: sans-serif;
+    overflow: hidden;
 }
 .questions{
     margin: 4rem auto;
-    width: 50vw;
-    height: 500px;
+    width: 55vw;
+    height: 590px;
     padding: 2rem;
     cursor: default;
     border-radius: 5rem;
@@ -231,3 +232,28 @@ body{
 
     
 }   
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(43deg);
+    float: right;
+    color: white;
+  
+    
+
+  }
+  button{
+      padding: 10px;
+      background-color: #282B49;
+      position: relative;
+      margin-left: 95%;
+      margin-top: 43%;
+      border-radius: 10px;
+      
+      
+  }
+  
