@@ -7,7 +7,7 @@
 body {
     font-family: sans-serif;
     overflow: hidden;
-    background-color: #2c1437;
+    background-color: #e8e6e9;
 }
 
 .questions {
@@ -232,7 +232,7 @@ div .btn:focus {
 
 .card1 {
     /* background-image: linear-gradient(to right, #746086, #736986);   */
-    background-color: #282B49;
+    background-color: #282b49;
     background-size: cover;
     background-position: bottom;
     height: 100%;
@@ -280,3 +280,124 @@ a {
 #card p {
     padding: 25% 0;
 }
+
+@media (max-width:1279px) and (min-width:769px) {
+    .questions {
+  
+      margin: 3rem auto;
+      width: 55vw;
+      height: 450px !important;
+      padding: 1.7rem;
+      cursor: default;
+      border-radius: 5rem;
+  
+    }
+  
+  
+    #sectionTest {
+      font-size: 35px;
+  
+    }
+  
+  
+    button {
+      top: 75%;
+    }
+  
+    div .btn {
+      width: 60%;
+      font-size: 15px;
+      padding: 8px;
+      margin: 8px 0;
+  
+    }
+  
+    .arrow {
+      margin-left: -50px;
+  
+    }
+    .qust {
+      font-size: 25px;
+    }
+  
+  }
+  
+  
+  
+  
+  @media (max-width:768px) and (min-width:481px) {
+  
+    .questions {
+  
+      margin: 3rem auto;
+      width: 55vw;
+      height: 430px !important;
+      padding: 1.5rem;
+      cursor: default;
+      border-radius: 5rem;
+  
+    }
+  
+  
+  
+    #sectionTest {
+      font-size: 25px;
+  
+    }
+  
+    button {
+      top: 65%;
+    }
+  
+    .qust {
+      font-size: 20px;
+    }
+  
+    div .btn {
+      width: 60%;
+      font-size: 15px;
+      padding: 8px;
+      margin: 8px 0;
+  
+    }
+  
+  }
+  
+  
+  
+  
+  @media (max-width:480px) {
+    .questions {
+  
+      margin: 4rem auto;
+      width: 90vw;
+      height: 400px !important;
+      padding: 1rem;
+      cursor: default;
+      border-radius: 5rem;
+  
+    }
+  
+  
+    #sectionTest {
+      font-size: 20px;
+  
+    }
+  
+    button {
+      top: 80%;
+    }
+  
+    .qust {
+      font-size: 15px;
+      padding: 25px;
+    }
+  
+    div .btn {
+      width: 75%;
+      font-size: 15px;
+      padding: 8px;
+      margin: 8px 0;
+  
+    }
+  }
